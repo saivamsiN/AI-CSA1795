@@ -1,0 +1,8 @@
+my_str = input("Enter a string: ")
+ 
+string = my_str.split()
+ 
+string.sort()
+ 
+for string in string:
+   print(string)
