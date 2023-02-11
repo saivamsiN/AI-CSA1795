@@ -1,0 +1,21 @@
+list = ['Python', 'Perl', 'Java', 'C++']
+
+
+#adding element to the list
+list.insert(3,'R')
+print(list)
+
+
+#Appending
+list.append('Django')
+print(list)
+
+#Deleting
+
+list.remove('Django')
+print(list)
+
+#Extending
+
+list.extend('c')
+print(list)
