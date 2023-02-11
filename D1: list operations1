@@ -1,0 +1,32 @@
+# List slicing in Python
+
+my_lists = ['p','r','o','g','r','a','m','i','z']
+
+string1="Iam a Programmer"
+string2="Iam a professor"
+
+# items from index 2 to index 4
+print(my_lists[2:5])
+
+# items from index 5 to end
+print(my_lists[5:])
+
+# items beginning to end
+print(my_lists[:])
+
+#indexing
+print(my_lists[1])
+
+
+#Iteration
+
+for my_list in my_lists:
+      print(my_list)
+
+#length of list
+      
+print("Total Elements: ", len(my_lists)) 
+
+#concatentation
+
+print(string1+" "+string2)
